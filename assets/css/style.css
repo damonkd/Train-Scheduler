@@ -1,0 +1,63 @@
+body{
+    text-align: center;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: "assets/images/spooky.jpg";
+    color: aliceblue;
+    line-height: 1.6;
+}
+
+
+h1{
+   font-size: 25px;
+   color: rgb(224, 0, 45);
+   font-weight: bold;
+   margin-top: 30px;
+   text-shadow: 2px 2px 8px black;
+
+}
+
+.button , #start, #restart{
+    background-color: rgb(45, 33, 71); 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 5px;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 5);
+    cursor: pointer;
+  }
+
+  .opt{
+    
+    cursor: pointer;
+    background-color: darkslategrey ;
+    border: red;
+    color: white;
+    
+    width: 300px;
+    padding: 12px;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 5);
+  }
+
+  div{
+    margin: auto;
+    margin-top: 5px;
+    
+  }
+
+  #wrapper{
+    background-color: rgb(41,46,55);
+    width: 400px;
+    height: 500px;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 5);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 40px;
+
+  }
